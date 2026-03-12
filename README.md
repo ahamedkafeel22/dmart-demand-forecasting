@@ -10,6 +10,17 @@
 
 ---
 
+## 🏢 Business Understanding
+
+| | |
+|---|---|
+| **Business Problem** | DMart and large retail chains face significant revenue loss from two inventory problems: overstocking (capital tied up, wastage, storage costs) and understocking (lost sales, poor customer experience). Without accurate demand forecasting, procurement decisions are based on intuition rather than data. |
+| **Business Objective** | Develop time-series forecasting models that accurately predict product demand at store level — enabling procurement teams to make data-driven restocking decisions weeks in advance, reducing both overstock waste and stockout revenue loss. |
+| **Business Constraint** | Forecasts must be available 2–4 weeks ahead of procurement deadlines, models must handle Indian retail demand patterns (Diwali spikes, monsoon slowdowns, festival seasons), and results must be presented in a dashboard accessible to non-technical procurement managers. |
+| **Business Success Criteria** | Procurement managers can view demand forecasts for the next 4 weeks via a dashboard — replacing manual estimation and enabling data-driven purchase orders before each replenishment cycle. |
+| **ML Success Criteria** | Best forecasting model achieves MAPE (Mean Absolute Percentage Error) < 10% on held-out test data across all product categories. |
+| **Economic Success Criteria** | A 10% reduction in overstock waste on ₹500 Cr annual inventory = ₹50 Cr saved. A 5% reduction in stockout-driven lost sales on ₹1,000 Cr revenue = ₹50 Cr recovered. Combined potential impact: ₹100 Cr+ annually for a large DMart operation. |
+
 ## 🎯 Project Overview
 
 This project builds an end-to-end demand forecasting system for DMart India — one of India's largest retail chains with 415+ stores nationwide.
